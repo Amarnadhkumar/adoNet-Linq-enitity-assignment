@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="aspNet" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=LAPTOP-P9PK212Q\MSSQLSERVER02;Initial Catalog=aspNet;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="aspNetConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.FootBall" Member="FootBalls">
+    <Type Name="FootBall">
+      <Column Name="MatchId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TeamName1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TeamName2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Matchresult" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="WinningTeam" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Points" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
