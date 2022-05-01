@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Busdetails.Controllers
+namespace MvcCrudOperation.Controllers
 {
     public class HomeController : Controller
     {
